@@ -503,6 +503,60 @@ h6 {
 .media-footer-svg {
   fill: currentColor;
 }
+/*--- Subscribe ---*/
+.subscribe {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.subscribe-wrap {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subscribe-input {
+  padding-left: 16px;
+  height: 40px;
+  width: 264px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid #ffffff4d;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: var(--white-text);
+  outline: none;
+}
+.subscribe-button {
+  margin-left: 24px;
+  margin-top: 40px;
+  display: flex;
+  gap: 16px;
+  height: 40px;
+  width: 165px;
+  border-radius: 4px;
+  padding: 8px 24px 8px 24px;
+  background-color: var(--brand-color);
+  color: var(--white-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  border: none;
+  transition: var(--transition);
+  transition-property: background-color;
+}
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--pressed-state);
+}
 
 /*--- Modal ---*/
 
@@ -639,6 +693,7 @@ h6 {
 .input-check {
   display: none;
 }
+
 .check-text {
   margin-top: 16px;
   margin-bottom: 24px;
