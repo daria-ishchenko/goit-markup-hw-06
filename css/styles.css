@@ -75,7 +75,7 @@ h6 {
   padding-bottom: 120px;
 }
 
-/* Header */
+/*------------- Header --------------*/
 
 .header {
   border-bottom: 1px solid var(--accent);
@@ -149,7 +149,7 @@ h6 {
   background-color: var(--pressed-state);
 }
 
-/* Contacts */
+/*------------ Contacts ------------*/
 
 .address {
   display: flex;
@@ -198,7 +198,7 @@ h6 {
   color: var(--pressed-state);
 }
 
-/*--- Section hero ---*/
+/*---------- Section hero ----------*/
 
 .hero {
   padding-top: 188px;
@@ -253,7 +253,7 @@ h6 {
   background-color: var(--pressed-state);
 }
 
-/*--- Section 1 ---*/
+/*-------------- Section 1 ---------------*/
 
 .features {
   display: flex;
@@ -288,7 +288,7 @@ h6 {
   text-align: left;
 }
 
-/*--- Section 2 What we are doing ---*/
+/*--------- Section 2 What we are doing --------*/
 .work {
   padding-top: 0px;
 }
@@ -387,7 +387,7 @@ h6 {
   border-radius: 50%;
 }
 
-/*--- Customers---*/
+/*------------- Customers -------------*/
 
 .customers-section {
   padding-top: 130px;
@@ -430,7 +430,7 @@ h6 {
   border: 1px solid var(--pressed-state);
 }
 
-/*--- Footer ---*/
+/*------------- Footer --------------*/
 
 .page-footer {
   padding-top: 100px;
@@ -504,7 +504,7 @@ h6 {
   fill: currentColor;
 }
 
-/*--- Subscribe ---*/
+/*------------ Subscribe -------------*/
 
 .subscribe {
   font-size: 16px;
@@ -513,14 +513,12 @@ h6 {
   letter-spacing: 0.02em;
   text-align: left;
 }
-
 .subscribe-wrap {
   margin-left: auto;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-
 .subscribe-input {
   padding-left: 16px;
   height: 40px;
@@ -560,7 +558,7 @@ h6 {
   background-color: var(--pressed-state);
 }
 
-/*--- Modal ---*/
+/*---------- Modal ------------*/
 
 .is-hidden {
   visibility: hidden;
@@ -647,7 +645,7 @@ h6 {
   background-color: transparent;
   font-size: 14px;
   color: var(--brand-color);
-  outline: none;
+  outline: var(--brand-color);
   padding-left: 35px;
   transition: var(--transition);
 }
