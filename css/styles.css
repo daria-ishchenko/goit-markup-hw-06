@@ -503,7 +503,9 @@ h6 {
 .media-footer-svg {
   fill: currentColor;
 }
+
 /*--- Subscribe ---*/
+
 .subscribe {
   font-size: 16px;
   font-weight: 500;
@@ -513,7 +515,7 @@ h6 {
 }
 
 .subscribe-wrap {
-  margin-left: 80px;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -645,7 +647,7 @@ h6 {
   background-color: transparent;
   font-size: 14px;
   color: var(--brand-color);
-  outline: var(--brand-color);
+  outline: none;
   padding-left: 35px;
   transition: var(--transition);
 }
