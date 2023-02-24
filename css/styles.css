@@ -524,6 +524,7 @@ h6 {
   align-items: center;
 }
 .subscribe-input {
+  display: flex;
   padding-left: 16px;
   height: 40px;
   width: 264px;
